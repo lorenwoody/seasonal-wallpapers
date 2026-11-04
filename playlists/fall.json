@@ -1,5 +1,5 @@
 [
-    {
+  {
     "location": "Autumn",
     "title": "Animated Autumn Yellow Leaves",
     "author": "MotionBGS",
@@ -88,5 +88,29 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "width": 3072,
     "height": 2048
+  },
+  {
+    "location": "Autumn",
+    "title": "Animated Autumn Forest",
+    "author": "MotionBGS",
+    "url_1080p": "https://motionbgs.com/media/730/autumn-forest.1920x1080.mp4"
+  },
+  {
+    "location": "Autumn",
+    "title": "Animated Fantasy Autumn Forest",
+    "author": "MotionBGS",
+    "url_1080p": "https://motionbgs.com/media/742/fantasy-autumn-forest.1920x1080.mp4"
+  },
+  {
+    "location": "Autumn",
+    "title": "Animated Foggy Autumn Forest",
+    "author": "MotionBGS",
+    "url_1080p": "https://motionbgs.com/media/5294/foggy-autumn-forest.1920x1080.mp4"
+  },
+  {
+    "location": "Autumn",
+    "title": "Animated Fall Forest",
+    "author": "MotionBGS",
+    "url_1080p": "https://motionbgs.com/media/7034/fall-forest.1920x1080.mp4"
   }
 ]
