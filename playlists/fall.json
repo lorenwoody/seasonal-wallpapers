@@ -1,14 +1,86 @@
 [
   {
-    "location": "Fall",
-    "title": "TEMPORARY EXAMPLE — fall still (replace URL)",
-    "author": "Replace with authorized creator credit",
-    "url_img": "https://example.invalid/fall/wallpaper.jpg"
+    "location": "Tuntorp, Sweden",
+    "title": "Golden woodland path in Tuntorp",
+    "author": "W.carter — CC BY-SA 4.0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/7/71/Forest_path_through_yellow_autumn_leaves_in_Tuntorp_1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Forest_path_through_yellow_autumn_leaves_in_Tuntorp_1.jpg",
+    "source_title": "Forest path through yellow autumn leaves in Tuntorp 1.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 5472,
+    "height": 3648
   },
   {
     "location": "Fall",
-    "title": "TEMPORARY EXAMPLE — fall video (replace URL)",
-    "author": "Replace with authorized creator credit",
-    "url_1080p": "https://example.invalid/fall/wallpaper.mp4"
+    "title": "Autumn forest trail",
+    "author": "Vovogov90 — CC0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/2/20/Autumn_Forest_Path_with_Tall_Trees.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Autumn_Forest_Path_with_Tall_Trees.jpg",
+    "source_title": "Autumn Forest Path with Tall Trees.jpg",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 4896,
+    "height": 3264
+  },
+  {
+    "location": "Fall",
+    "title": "Mossy trunks and autumn leaves",
+    "author": "Martin Vorel — CC0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Autumn_Forest_Wet_Bark.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Autumn_Forest_Wet_Bark.jpg",
+    "source_title": "Autumn Forest Wet Bark.jpg",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 3500,
+    "height": 2333
+  },
+  {
+    "location": "Tuntorp, Sweden",
+    "title": "A carpet of fallen leaves",
+    "author": "W.carter — CC BY-SA 4.0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/9/96/Autumn_leaves_on_a_path_in_Tuntorp.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Autumn_leaves_on_a_path_in_Tuntorp.jpg",
+    "source_title": "Autumn leaves on a path in Tuntorp.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 4925,
+    "height": 3283
+  },
+  {
+    "location": "Quebec, Canada",
+    "title": "Pumpkins at the harvest festival",
+    "author": "Marc-Lautenbacher — CC BY-SA 4.0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/4/43/Harvest_festival_with_pumpkins%2C_Quebec%2C_Canada.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Harvest_festival_with_pumpkins,_Quebec,_Canada.jpg",
+    "source_title": "Harvest festival with pumpkins, Quebec, Canada.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 5616,
+    "height": 3744
+  },
+  {
+    "location": "Nuthurst, England",
+    "title": "A warm fire at the Black Horse Inn",
+    "author": "Acabashi — CC BY-SA 4.0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/9/97/Wood-burning_stove_at_The_Black_Horse_Inn%2C_Nuthurst%2C_West_Sussex.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Wood-burning_stove_at_The_Black_Horse_Inn,_Nuthurst,_West_Sussex.jpg",
+    "source_title": "Wood-burning stove at The Black Horse Inn, Nuthurst, West Sussex.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 3000,
+    "height": 1999
+  },
+  {
+    "location": "Thanksgiving",
+    "title": "Traditional Thanksgiving table",
+    "author": "Ben Franske — CC BY-SA 4.0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/0/04/TraditionalThanksgiving.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:TraditionalThanksgiving.jpg",
+    "source_title": "TraditionalThanksgiving.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 3072,
+    "height": 2048
   }
 ]
