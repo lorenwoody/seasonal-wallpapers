@@ -61,16 +61,19 @@ class SeasonTests(unittest.TestCase):
 
 
 class PlaylistTests(unittest.TestCase):
-    def test_all_six_templates_are_valid_and_guarded(self):
+    def test_all_six_playlists_are_valid_and_examples_are_guarded(self):
         self.assertEqual({p.stem for p in app.PLAYLIST_DIR.glob('*.json')}, set(app.SEASONS))
         for season in app.SEASONS:
             with self.subTest(season=season):
                 data = json.loads((app.PLAYLIST_DIR / f'{season}.json').read_text())
                 app.validate_playlist(data, allow_examples=True)
                 self.assertTrue(any('url_img' in entry for entry in data))
-                self.assertTrue(any('url_1080p' in entry for entry in data))
-                with self.assertRaisesRegex(ValueError, 'temporary example'):
+                if season in ('fall', 'christmas'):
                     app.validate_playlist(data)
+                else:
+                    self.assertTrue(any('url_1080p' in entry for entry in data))
+                    with self.assertRaisesRegex(ValueError, 'temporary example'):
+                        app.validate_playlist(data)
 
     def test_malformed_playlists(self):
         invalid = [{}, [], ['string'], [{}], [{'url_img': None}],

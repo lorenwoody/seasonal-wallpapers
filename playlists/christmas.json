@@ -1,14 +1,74 @@
 [
   {
-    "location": "Christmas",
-    "title": "TEMPORARY EXAMPLE — christmas still (replace URL)",
-    "author": "Replace with authorized creator credit",
-    "url_img": "https://example.invalid/christmas/wallpaper.jpg"
+    "location": "Shirakawa-go, Japan",
+    "title": "Snow-covered Shirakawa-go at dusk",
+    "author": "tsuda from Tsushima, Aichi, Japan — CC BY-SA 2.0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/6/63/Shirakawa-go_002.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Shirakawa-go_002.jpg",
+    "source_title": "Shirakawa-go 002.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "width": 2048,
+    "height": 1364
   },
   {
-    "location": "Christmas",
-    "title": "TEMPORARY EXAMPLE — christmas video (replace URL)",
-    "author": "Replace with authorized creator credit",
-    "url_1080p": "https://example.invalid/christmas/wallpaper.mp4"
+    "location": "Shirakawa-go, Japan",
+    "title": "A snowy village street",
+    "author": "雷太 — CC BY 2.0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/4/45/Shirakawa_in_winter%3B_Gifu_Prefecture%3B_February_2018_%2803%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Shirakawa_in_winter;_Gifu_Prefecture;_February_2018_(03).jpg",
+    "source_title": "Shirakawa in winter; Gifu Prefecture; February 2018 (03).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 5822,
+    "height": 3881
+  },
+  {
+    "location": "Tallinn, Estonia",
+    "title": "Christmas tree in the old town square",
+    "author": "Marmuras — CC BY-SA 4.0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Tallinn_Christmas_tree_2024_and_Tallinn_Town_Hall.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tallinn_Christmas_tree_2024_and_Tallinn_Town_Hall.jpg",
+    "source_title": "Tallinn Christmas tree 2024 and Tallinn Town Hall.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 3264,
+    "height": 2448
+  },
+  {
+    "location": "Asheville, North Carolina",
+    "title": "Christmas trees and fireplace at Biltmore",
+    "author": "daveynin — CC BY 2.0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Biltmore_Christmas_tree_and_fireplace_-_50716240696.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Biltmore_Christmas_tree_and_fireplace_-_50716240696.jpg",
+    "source_title": "Biltmore Christmas tree and fireplace - 50716240696.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "location": "Nuthurst, England",
+    "title": "A cozy winter hearth",
+    "author": "Acabashi — CC BY-SA 4.0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/9/97/Wood-burning_stove_at_The_Black_Horse_Inn%2C_Nuthurst%2C_West_Sussex.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Wood-burning_stove_at_The_Black_Horse_Inn,_Nuthurst,_West_Sussex.jpg",
+    "source_title": "Wood-burning stove at The Black Horse Inn, Nuthurst, West Sussex.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 3000,
+    "height": 1999
+  },
+  {
+    "location": "Butler Gulch, Colorado",
+    "title": "Snow falling in an evergreen forest",
+    "author": "Grant Lemons grantlemons — CC0",
+    "url_img": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Falling_snow_in_a_forest_%28Unsplash%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Falling_snow_in_a_forest_(Unsplash).jpg",
+    "source_title": "Falling snow in a forest (Unsplash).jpg",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 5757,
+    "height": 3838
   }
 ]

@@ -2,11 +2,11 @@
 
 One existing GitHub Gist supplies the same seasonal wallpaper playlist to all five onn 4K Pro Google TV devices. GitHub Actions selects the season using the current **America/Chicago** date and changes only the contents of the Gist's existing file. The TVs keep their current permanent Raw URL.
 
-**This repository ships with temporary examples, not usable wallpapers. Live writes are disabled until you explicitly enable them.** No media is bundled or uploaded.
+**Fall and Christmas contain licensed wallpaper images; the other four seasons still contain temporary examples. Live writes are disabled until you explicitly enable them.** No media is bundled or uploaded.
 
 ## Files and season calendar
 
-- `playlists/`: six Overflight JSON playlists, each demonstrating a still image and an MP4.
+- `playlists/`: six Overflight JSON playlists. Fall and Christmas use real stills; the other seasons demonstrate a still image and an MP4 with temporary URLs.
 - `scripts/update_gist.py`: Python 3.10+ standard library script; uses the system IANA timezone database (available on GitHub's Ubuntu runners).
 - `.github/workflows/seasonal-wallpapers.yml`: validation, daily scheduling, and manual dry runs/overrides.
 - `tests/test_update_gist.py`: offline tests; all GitHub API writes are mocked.
@@ -47,7 +47,11 @@ The format follows [Overflight's official JSON documentation](https://github.com
 
 `url_img` must return an image; `url_1080p` must be a directly accessible MP4 URL whose path ends in `.mp4` (query parameters are allowed). A web page, YouTube link, or download landing page will not work. Use public HTTPS URLs without cookies, login, or embedded credentials; prefer stable links without expiring signatures. Verify playback on the TVs. The script validates URL structure, not remote availability, codec support, ownership, or licensing. The `url_1080p` field follows Overflight's video convention and does not transcode media.
 
-Do not upload copyrighted DesktopHut MP4s without redistribution rights. Keep original creator credits and license information. Check hotlinking terms. No real media URLs are supplied here.
+Do not upload copyrighted DesktopHut MP4s without redistribution rights. Keep original creator credits and license information. Check hotlinking terms.
+
+Fall contains seven stills covering autumn forests, fallen leaves, pumpkins, a hearth, and Thanksgiving. Christmas contains six stills covering snowy villages, Christmas trees, hearths, and falling snow. Each direct Wikimedia Commons JPEG URL was downloaded anonymously, returned HTTP 200 with `image/jpeg`, and decoded successfully at its recorded dimensions (all at least 1920 × 1080). Creator credits, original titles, source pages, and CC0/CC BY/CC BY-SA license links are retained in each entry. These are unmodified originals; follow the recorded license when redistributing or adapting them. Commons supports direct media linking; see its [reuse guidance](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia#Hotlinking). Availability can change; TV playback still needs device verification.
+
+These two playlists currently contain stills only. The relevant Commons video downloads checked during curation offered WebM and MOV, without compatible MP4s. No video placeholder remains in either populated season. Add animated media only after verifying its direct MP4 URL and reuse rights.
 
 ## 2. Keep the existing Gist and Raw URL
 
